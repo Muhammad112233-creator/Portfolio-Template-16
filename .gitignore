@@ -1,0 +1,37 @@
+# Dependencies
+node_modules/
+.npm/
+.pnp/
+.pnp.*
+
+# Next.js / static build output
+.next/
+out/
+build/
+dist/
+
+# Environment variables — commit only .env.example
+.env*
+!.env.example
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+*.log
+
+# Editor / operating system
+.config/nextjs-nodejs/
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/*
+!.vscode/extensions.json
+
+# Deployment tooling
+.vercel/
+.netlify/
+
+# TypeScript / test caches
+*.tsbuildinfo
+coverage/
